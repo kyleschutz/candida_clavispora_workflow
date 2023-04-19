@@ -116,7 +116,7 @@ ________________________________________________________________
 
 2. Run [RAxML-NG](https://github.com/amkozlov/raxml-ng)
 
-`raxml-ng --all sequence.fasta --model GTR+G --bs-trees 300`
+`raxml-ng --all sequence.fasta --model GTR+G --bs-trees 100`
 
 ________________________________________________________________
 
