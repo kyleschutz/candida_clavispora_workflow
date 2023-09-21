@@ -178,3 +178,15 @@ java -jar phyparts-0.0.1-SNAPSHOT-jar-with-dependencies.jar -s 0.5 -a 1 -v -d ..
 3. Visualize the results with phypartspiecharts. The number is the orthologous clusters/gene trees.
 
 `phypartspiecharts.py reroot_astral.tre out 84`
+
+________________________________________________________________
+
+### **KH Topology Testing in IQ-TREEs**
+
+iqtree -s sequence.fasta -m TIM2+I+G -z tree_ls_chaem -n 0 -zb 2000 -au
+
+### -s = the alignment
+### -m = model (IQ-TREE model optimization used here)
+### -z = concatenated topologies (in NEWICK format)
+### -zb = number of RELL replicates
+### - au = in AU model
