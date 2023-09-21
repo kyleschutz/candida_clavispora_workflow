@@ -183,12 +183,10 @@ ________________________________________________________________
 
 ### **KH Topology Testing in IQ-TREEs**
 ```
+
 `iqtree -s sequence.fasta -m TIM2+I+G -z tree_ls_chaem -n 0 -zb 2000 -au`
 
 ```
- -s = the alignment
- -m = model (IQ-TREE model optimization used here)
- -z = concatenated topologies (in NEWICK format)
- -zb = number of RELL replicates
- - au = in AU model
-  ```
+ -s = the alignment, -m = model (IQ-TREE model optimization used here), -z = concatenated topologies (in NEWICK format), zb = number of RELL replicates, au = in AU model
+ 
+ ```
